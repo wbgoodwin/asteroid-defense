@@ -1,9 +1,14 @@
 #include <iostream>
+#include <array>
+#include "coordinates.cpp"
 
-int main() {
+CoordinatePoint incomingMissileRadarPoints[6] = {CoordinatePoint(1.0, 1.0, 1.0), CoordinatePoint(1.0, 1.0, 1.0),
+                                                       CoordinatePoint(1.0, 1.0, 1.0), CoordinatePoint(1.0, 1.0, 1.0),
+                                                       CoordinatePoint(1.0, 1.0, 1.0), CoordinatePoint(1.0, 1.0, 1.0)};
+const int temp[2] = {3, 2};
 
-  std::cout << "1\n";
-  std::cout << "2\n";
-  std::cout << "3\n";
-
+int main()
+{
+    
+    std::cout << temp[0] << std::endl;
 }
